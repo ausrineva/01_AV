@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 tekstas.setText("Sveiki atvykę!");
             }
         });
-
  //funkcija su kuria atsidanda antras mygtukas
 
 
