@@ -11,17 +11,18 @@
         android:id="@+id/tekstas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" "
+        android:text="Sveiki atvykę!"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintVertical_bias="0.393"
+        android:visibility="gone"/>
 
     <Button
-        android:id="@+id/pirmutinismygtukas"
+        android:id="@+id/mygtukas1"
         android:layout_width="175dp"
         android:layout_height="67dp"
         android:text="Spausti"
@@ -31,5 +32,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tekstas"
         app:layout_constraintVertical_bias="0.492" />
+
+    <Button
+        android:id="@+id/mygtukas2"
+        android:layout_width="175dp"
+        android:layout_height="66dp"
+        android:text="Keisti teksto spalvą"
+        app:layout_constraintBottom_toBottomOf="@+id/mygtukas1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tekstas"
+        app:layout_constraintVertical_bias="1.0"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
